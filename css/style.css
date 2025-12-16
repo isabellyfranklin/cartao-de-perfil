@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: rgb(233, 233, 233);
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    margin:0px ;
+    padding:0px ;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(165, 59, 157);
+    border-radius: 30px 30px 30px ;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.imagem-de-perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-perfil-img{
+    width:200px ;
+    height: 200px;    
+    border-radius: 50%;
+    object-fit: cover;
+    border:4px solid rgb(222, 71, 209);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+div.text-perfil{
+    color: rgb(236, 229, 229);
+    font-weight: lighter;
+}
+
+h2#meu-nome {
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+h2#minhas-habilidades{
+    font-weight: 450;
+    font-size: 15px;
+}
+
+
+div.redes-sociais{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    margin-top: 35px;
+}
+
+img{
+    width: 50px;
+}
+
+
+#insta{
+    background-color: black;
+    border-radius: 70%;
+
+}
+
+#insta:hover{
+    color: brown;
+    cursor: pointer;
+}
+
+    
+    
+
