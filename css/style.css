@@ -93,6 +93,20 @@ div.redes-sociais{
     align-items: center;
 }
 
+div.redes-sociais img {
+     width: 28px;
+    height: 28px;
+    object-fit: contain;
+    margin-left: 7px;
+}
+
+img.github{
+    width: 30px;
+    height: 28px;
+    object-fit: contain;
+    margin-left: 15px;
+}
+
 a{
     margin-top: 35px;
 }
