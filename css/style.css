@@ -126,6 +126,20 @@ img{
     cursor: pointer;
 }
 
+/*celular comumm 480px – 640px*/
+@media screen and (min-width: 480px ) and (max-width: 640px){
+    main{
+    width: 350px;
+    height: 450px;
+    background-color: rgb(59, 93, 55);
+    border-radius: 30px 30px 30px ;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
     
+}
     
 
